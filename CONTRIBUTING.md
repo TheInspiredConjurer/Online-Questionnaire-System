@@ -23,7 +23,7 @@ cd Online-Questionnaire-System
 
 # Step 4: Pull the latest changes from upstream into your local repository
 
-Before you start making any changes to your local files, it's a good practice to first synchronize your local repository with the project repository. Use git pull upstream master to "pull" any changes from the "master" branch of the "upstream" into your local repository. (If the project repository uses "main" instead of "master" for its default branch, then you would use git pull upstream main instead.)
+Before you start making any changes to your local files, it's a good practice to first synchronize your local repository with the project repository. Use git pull upstream main to "pull" any changes from the "main" branch of the "upstream" into your local repository. 
   
   ```bash
 git pull upstream main
