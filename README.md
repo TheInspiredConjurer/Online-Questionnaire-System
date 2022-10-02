@@ -22,6 +22,8 @@ Frameworks - Vue 3, Tailwind CSS, Django, Django REST Framework
 
 Database - PostgreSQL
 
+All Technologies use their latest version (not LTS).
+
 
 
 
