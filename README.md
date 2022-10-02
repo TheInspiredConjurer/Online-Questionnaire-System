@@ -18,7 +18,7 @@ Online Questionnaire System (OQS) is an open-source examination management Syste
 ------------
 HTML5, CSS3, JavaScript, Python
 
-Frameworks - Vue 3, Tailwind CSS, Django REST Framework
+Frameworks - Vue 3, Tailwind CSS, Django, Django REST Framework
 
 Database - PostgreSQL
 
