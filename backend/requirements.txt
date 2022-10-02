@@ -1,0 +1,5 @@
+Django==4.1.1
+psycopg2==2.9.3
+django-cities-light==3.9.2
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.1
