@@ -1,7 +1,7 @@
 # Step 1: Fork the project repository
 
 Fork the repository to you GitHub
-![fork][(https://github.com/TheInspiredConjurer/Online-Questionnaire-System)]
+[Fork - Click Here](https://github.com/TheInspiredConjurer/Online-Questionnaire-System/fork)
 
 # Step 2: Clone your fork
 
