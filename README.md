@@ -22,3 +22,13 @@ Frameworks - Vue 3, Tailwind CSS, Django, Django REST Framework
 
 Database - PostgreSQL
 
+
+
+### Interested in Contributing?
+
+------------
+Note: I am looking for long-term teammates for this project, since I intend to keep this project around, even after Hacktoberfest.
+
+Please have a look at [CONTRIBUTING Guidellines](https://github.com/TheInspiredConjurer/Online-Questionnaire-System/blob/main/CONTRIBUTING.md) if you would like to contribute.
+
+Thanks!
