@@ -116,8 +116,7 @@ Pull Request Message Format: -
    
   
   examples:
-  `[Front-End] [BUG] - Fix bug in Vue routing`
-  <br>` - Added routing component that fixes issue #21`
+  `[Front-End] [BUG] - Fix bug in Vue routing`<br>` - Added routing component that fixes issue #21`
   
 
 Before submitting the pull request, you first need to describe the changes you made (rather than asking the project maintainers to figure them out on their own). You should write a descriptive title for your pull request, and then include more details in the body of the pull request. If there are any related GitHub issues, make sure to mention those by number. The body can include Markdown formatting, and you can click the Preview tab to see how it will look.
