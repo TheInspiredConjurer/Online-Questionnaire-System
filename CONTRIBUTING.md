@@ -61,7 +61,7 @@ For example, `commit -m "create base for svelte game version"` for one of my com
   
  ```bash
 git add .
-git commit -m"<Description of changes>"
+git commit -m "<Description of changes>"
 ```
 
 If you are making multiple sets of changes, it's a good practice to make a commit after each set.
@@ -81,8 +81,44 @@ git push origin <BRANCH_NAME>
 Return to your fork on GitHub, and refresh the page. You may see a highlighted area that displays your recently pushed branch:
 
 Click the green Compare & pull request button to begin the pull request.
+  
 
 # Step 10: Create the pull request
+  
+Pull Request Message Format: -
+  
+  ```
+  [Front-End / Back-End / Miscellaneous] [Type of Issue] - (Title Message)
+  
+  ```
+  
+  
+  ```
+   - Detail 1 about Pull Request.
+   - Detail 2 about Pull Request.
+   - Detail 3 about Pull Request.
+               .
+               .
+               .
+  ```
+  
+  - Use the `Miscellaneous` tag if you are making any non-code contributions, such as documentation, design changes, etc.
+  - `Type of Issue` must be one of the following: -
+     1. FEAT / ENHANCEMENT - Adding a new feature.
+     2. FIX - A bug fix.
+     3. DOCS - Making any type of changes (add / delete / update) to the documentation.
+     4. STYLE - Everything related to styling.
+     5. REFACTOR - Code changes that neither fixes a bug nor adds a feature.
+     6. SUGGESTION - Suggestion or new ideas
+     7. CHORE - Updating build tasks, package manager configs, etc.
+  - The `Title Message` must be written in the imperative eg. 'Add' instead of 'Added' or 'Adds'.
+
+   
+  
+  examples:
+  `[Front-End] [BUG] - Fix bug in Vue routing`
+  <br>` - Added routing component that fixes issue #21`
+  
 
 Before submitting the pull request, you first need to describe the changes you made (rather than asking the project maintainers to figure them out on their own). You should write a descriptive title for your pull request, and then include more details in the body of the pull request. If there are any related GitHub issues, make sure to mention those by number. The body can include Markdown formatting, and you can click the Preview tab to see how it will look.
 
