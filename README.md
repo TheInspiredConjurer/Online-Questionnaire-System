@@ -14,4 +14,4 @@ Online Questionnaire System (OQS) is an open-source examination management Syste
 
 
 ### TECH STACK USED
-[HTML 5](https://www.flaticon.com/free-icons/html-5)
+[](https://www.flaticon.com/free-icons/html-5)
