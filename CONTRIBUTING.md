@@ -116,16 +116,19 @@ Pull Request Message Format: -
    
   
   examples:
-  <br>
+  <br><br>
   `[Front-End] [BUG] - Fix bug in Vue routing`
   <br>
-  ` - Added routing component that fixes issue #21`
+  ` - Add routing component that fixes issue #21`
+  (Note: If you are submitting a Pull Request that solves an issue, then when you type the #(issue number) in the message, Github will automatically show you the issue, which you can then link by simply clicking on it).
+  
+  <br><br>
+  `[Miscellaneous] [DOCS] - Add icons to documentation`
+  <br>
+  ` - Edit README.md to include icons of programming languages`
   
 
 Before submitting the pull request, you first need to describe the changes you made (rather than asking the project maintainers to figure them out on their own). You should write a descriptive title for your pull request, and then include more details in the body of the pull request. If there are any related GitHub issues, make sure to mention those by number. The body can include Markdown formatting, and you can click the Preview tab to see how it will look.
-
-
-On the right side, you may see a link to the project's Contributing guidelines. This is primarily worth reading through if you are submitting substantial code (rather than just fixing a typo), but it may still be worth scanning through at this point.
 
 Below the pull request form, you will see a list of the commits you made in your branch, as well as the "diffs" for all of the files you changed.!
 
