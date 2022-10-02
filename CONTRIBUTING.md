@@ -8,7 +8,7 @@ Fork the repository to you GitHub
 While still in your repository, click on the code drop down menu. Now you can either download the zip file and extract it on your local system or copy the https url and use the command git clone <https url> to clone it to a local directory/folder. 
   
 ```bash
-git clone <https url>
+git clone <https url or .git url>
 ```
 
 # Step 3: Navigate to your local repository
