@@ -1,8 +1,13 @@
+# --- general ---
 # ignore jetbrain project setup directory
 .idea
 
+# --- backend ---
 # ignore the virtual python evnironment
 .venv
+# ignore the database
+backend/db.sqlite3
 
+# --- frontend ---
 # ignore node modules
 */node_modules

@@ -115,4 +115,35 @@ pip3 install -r requirements.txt
 ```
 
 ## run the application
+### backend
+First you'll need to apply the most recent migrations and then one can start the server
+
+```shell
+# make sure to use the correct environment
+source .venv/bin/activate
+
+# go into the backend directory
+cd backend
+
+# migrate the local database
+python3 manage.py migrate
+
+# start the server
+python3 manage.py runserver
+```
+
+The output will tell you on which port you can find your server.
+
+### frontend
+The available `npm run` scripts are mentioned in `frontend/package.json`. In order to run a local development server, we need to execute the `dev` script
+
+```shell
+# go into the frontend directory
+cd frontend
+
+# run the dev server
+npm run dev
+```
+
+The output will tell you on which port you can find the website on your local machine.
 
