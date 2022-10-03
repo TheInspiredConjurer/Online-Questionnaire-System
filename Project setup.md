@@ -44,7 +44,7 @@ python3 --version
 # -> Python 3.*.* (the currently latest is 3.10.7, but any LTS is ok as well)
 ```
 
-In case this fails, please make sure to install Python first. Here are some possibilities for Mac OS, Ubuntu/Windows WSL and Windows
+In case this fails, please make sure to install Python first. Here are some possibilities for macOS, Ubuntu/Windows WSL and Windows
 
 #### macOS
 [Homebrew](https://brew.sh/index_de) is a powerful package manager for macOS. Once installed one can install the latest python version by simply executing
@@ -54,7 +54,7 @@ brew install python
 ```
 
 #### Ubuntu / Windows WSL
-For Ubuntu it is recommended to use the "advanded packaging tool" `apt` and add an additional "personal package archive" `ppa` that holds the latest python release
+For Ubuntu, it is recommended to use the "advanced packaging tool" `apt` and add a "personal package archive" `ppa` that holds the latest python release
 
 ```shell
 # 1. it's recommended to update and upgrade the current packages and their archives
