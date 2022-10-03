@@ -57,3 +57,6 @@ Note: I am looking for long-term teammates for this project, since I intend to k
 Please have a look at [CONTRIBUTING Guidellines](https://github.com/TheInspiredConjurer/Online-Questionnaire-System/blob/main/CONTRIBUTING.md) if you would like to contribute.
 
 Thanks!
+
+#### Project setup
+Have a look at [Project setup](Project%20setup.md) in order to see how to set everything up and get it running.
