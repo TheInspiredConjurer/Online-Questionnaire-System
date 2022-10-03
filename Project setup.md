@@ -2,7 +2,20 @@
 This project has a frontend using `npm` as package manager, [Vue](https://vuejs.org/) as the javascript framework and [Tailwind](https://tailwindcss.com/) as the CSS framework. The backend is written in Python with [Django](https://www.djangoproject.com/) as the Python framework. 
 
 In order to get everything up and running we'll need to install the latest node version together with `npm`, `npm` will then care about all other dependencies. 
-For the backend, we'll need to create a virtual python environment in which we'll then install all backend dependencies
+For the backend, we'll need to create a virtual python environment in which we'll then install all backend dependencies.
+
+## Clone the repository
+In order to start, you'll need to clone the repository first, you can do so either by using the https or the ssh link to the repository
+
+```shell
+# here we use the commonly used https link
+git clone https://github.com/TheInspiredConjurer/Online-Questionnaire-System.git
+```
+
+For all other commands you can find below, it is expected that you are in the `Online-Questionnaire-System` directory, so make sure to go their first
+```shell
+cd /path/to/Online-Questionnaire-System
+```
 
 ## Node & npm for the frontend
 in case you don't have node installed already, I can recommend using [nvm](https://github.com/nvm-sh/nvm) a Node Version Manager. It allows installing and switching between node version quite easily. 
@@ -33,7 +46,7 @@ python3 --version
 
 In case this fails, please make sure to install Python first. Here are some possibilities for Mac OS, Ubuntu/Windows WSL and Windows
 
-#### Mac OS
+#### macOS
 [Homebrew](https://brew.sh/index_de) is a powerful package manager for macOS. Once installed one can install the latest python version by simply executing
 
 ```shell
@@ -82,7 +95,7 @@ brew install postgresql
 ```
 
 #### Ubuntu / Windows WSL
-In Ubuntu is part of the `libpq-dev` library. One can install it via 
+In Ubuntu, it is part of the `libpq-dev` library. One can install it via 
 
 ```shell
 sudo apt install libpq-dev
@@ -90,7 +103,7 @@ sudo apt install libpq-dev
 
 ## install the dependencies
 ### frontend
-The frontend dependencies are all mentioned in `frontend/package.json`. In order to install them, we can use `npm`
+The frontend dependencies are all mentioned in `frontend/package.json`. In order to install them, we need `npm`
 
 ```shell
 # go into the frontend directory
@@ -116,7 +129,7 @@ pip3 install -r requirements.txt
 
 ## run the application
 ### backend
-First you'll need to apply the most recent migrations and then one can start the server
+First you'll need to apply the most recent migrations, and then you can start the server
 
 ```shell
 # make sure to use the correct environment
