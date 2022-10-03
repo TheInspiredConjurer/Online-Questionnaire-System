@@ -1,2 +1,8 @@
 # ignore jetbrain project setup directory
 .idea
+
+# ignore the virtual python evnironment
+.venv
+
+# ignore node modules
+*/node_modules
