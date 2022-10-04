@@ -54,6 +54,8 @@ Planned Features: -
 ------------
 Note: I am looking for long-term teammates for this project, since I intend to keep this project around, even after Hacktoberfest.
 
-Please have a look at [CONTRIBUTING Guidellines](https://github.com/TheInspiredConjurer/Online-Questionnaire-System/blob/main/CONTRIBUTING.md) if you would like to contribute.
+Please have a look at [CONTRIBUTING Guidellines](https://github.com/TheInspiredConjurer/Online-Questionnaire-System/blob/main/CONTRIBUTING.md) if you would like to contribute.<br><br>
+Please follow the CODE OF CONDUCT for contributing . [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
 
 Thanks!
