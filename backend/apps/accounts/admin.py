@@ -16,9 +16,7 @@ class UserAdminModel(UserAdmin):
         "is_staff",
         "is_superuser"
     )
-
-    class Meta:
-        ordering = ("id", )
+    ordering = ("id", )
 
 
 admin.site.register(User, UserAdminModel)
