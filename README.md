@@ -27,14 +27,17 @@ Online Questionnaire System (OQS) is an open-source examination management Syste
 
 
 ### Frameworks -
-
-[![icons8-vue-js](https://user-images.githubusercontent.com/98693953/194346224-bce7f828-7f92-4d54-a443-9655694e2ddd.png)](https://vuejs.org/guide/introduction.html)
-[![icons8-tailwind-css](https://user-images.githubusercontent.com/98693953/194346266-55917c91-0f29-4cdd-b934-1a689bec6b29.png)](https://tailwindcss.com/docs)
-[![icons8-django](https://user-images.githubusercontent.com/98693953/194346305-8dedaeb6-d3a2-4341-b000-5c15b402309e.png)](https://docs.djangoproject.com/en/4.1/)
+<div>
+<a href="https://vuejs.org/guide/introduction.html"><img align="left" src="https://user-images.githubusercontent.com/98693953/194346224-bce7f828-7f92-4d54-a443-9655694e2ddd.png"/></a>
+<a href="https://tailwindcss.com/docs"><img align="left" src="https://user-images.githubusercontent.com/98693953/194346266-55917c91-0f29-4cdd-b934-1a689bec6b29.png" hspace="10"/></a>
+<a href="https://docs.djangoproject.com/en/4.1/"><img align="left" src="https://user-images.githubusercontent.com/98693953/194346305-8dedaeb6-d3a2-4341-b000-5c15b402309e.png">
+</div></a>
+<br/><br/><br/><br/>
 
 
 ### Database - 
 [![icons8-postgresql](https://user-images.githubusercontent.com/98693953/194356660-0d8c2672-0b01-41c3-a831-86d19d1b938b.png)](https://www.postgresql.org/docs/)
+
 
 
 
