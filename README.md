@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FF0C0C&center=true&vCenter=true&width=435&lines=Online+Questionnaire+System)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=27&pause=1000&color=FF0C0C&center=true&vCenter=true&width=435&lines=Online+Questionnaire+System)](https://git.io/typing-svg)
 
 This is an online questionnaire system which was, until now, a private personal project.
 
