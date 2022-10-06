@@ -60,7 +60,6 @@ Note: I am looking for long-term teammates for this project, since I intend to k
 Please have a look at [CONTRIBUTING Guidelines](https://github.com/TheInspiredConjurer/Online-Questionnaire-System/blob/main/CONTRIBUTING.md) if you would like to contribute.<br><br>
 
 
-
 Please follow the [CODE OF CONDUCT](https://github.com/TheInspiredConjurer/Online-Questionnaire-System/blob/main/CODE_OF_CONDUCT.md) for contributing . [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 
