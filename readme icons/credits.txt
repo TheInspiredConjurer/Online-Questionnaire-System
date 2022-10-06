@@ -8,3 +8,4 @@ All credits go to icons8.com
 <a target="_blank" href="https://icons8.com/icon/4PiNHtUJVbLs/tailwind-css">Tailwind CSS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/qV-JzWYl9dzP/django">Django</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/rY6agKizO9eb/vue-js">Vue Js</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/38561/postgresql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
