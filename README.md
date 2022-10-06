@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Online+Questionnaire+System)](https://git.io/typing-svg)
+
 This is an online questionnaire system which was, until now, a private personal project.
 
 However, I am struggling with some issues and would like to invite potential contributors to solve it.
