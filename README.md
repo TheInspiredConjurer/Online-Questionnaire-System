@@ -31,7 +31,7 @@ Online Questionnaire System (OQS) is an open-source examination management Syste
 
 
 ### Database - 
-[![postgresql (1)](https://user-images.githubusercontent.com/98693953/194347620-9f33fab6-c816-4302-b1f6-78facc70af0f.png)](https://www.postgresql.org/docs/)
+[![icons8-postgresql](https://user-images.githubusercontent.com/98693953/194356660-0d8c2672-0b01-41c3-a831-86d19d1b938b.png)](https://www.postgresql.org/docs/)
 
 
 
