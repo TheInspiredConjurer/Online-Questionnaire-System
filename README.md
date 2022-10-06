@@ -81,5 +81,5 @@ Please follow the [CODE OF CONDUCT](https://github.com/TheInspiredConjurer/Onlin
 
 Thanks!
 
-#### Project setup
+### Project setup
 Have a look at [Project setup](Project%20setup.md) in order to see how to set everything up and get it running.
