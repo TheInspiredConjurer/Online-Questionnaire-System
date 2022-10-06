@@ -16,11 +16,24 @@ Online Questionnaire System (OQS) is an open-source examination management Syste
 ### TECH STACK USED
 
 ------------
-HTML5, CSS3, JavaScript, Python
+[![icons8-html-5](https://user-images.githubusercontent.com/98693953/194344063-b7e6026f-f6d6-400c-807c-6a789f47f959.png)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+[![icons8-css3](https://user-images.githubusercontent.com/98693953/194345602-be2274ef-7fa3-4873-9c79-83da955bb487.png)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![icons8-javascript](https://user-images.githubusercontent.com/98693953/194345624-bd2d17f8-8efc-414e-8ad9-768b0367d441.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![icons8-python](https://user-images.githubusercontent.com/98693953/194345558-0e33957f-9252-4a7b-a1bf-e2d828709f10.png)](https://www.python.org/doc/)
 
-Frameworks - Vue 3, Tailwind CSS, Django, Django REST Framework
 
-Database - PostgreSQL
+
+### Frameworks -
+
+[![icons8-vue-js](https://user-images.githubusercontent.com/98693953/194346224-bce7f828-7f92-4d54-a443-9655694e2ddd.png)](https://vuejs.org/guide/introduction.html)
+[![icons8-tailwind-css](https://user-images.githubusercontent.com/98693953/194346266-55917c91-0f29-4cdd-b934-1a689bec6b29.png)](https://tailwindcss.com/docs)
+[![icons8-django](https://user-images.githubusercontent.com/98693953/194346305-8dedaeb6-d3a2-4341-b000-5c15b402309e.png)](https://docs.djangoproject.com/en/4.1/)
+
+
+### Database - 
+[![postgresql (1)](https://user-images.githubusercontent.com/98693953/194347620-9f33fab6-c816-4302-b1f6-78facc70af0f.png)](https://www.postgresql.org/docs/)
+
+
 
 All Technologies use their latest version (not LTS).
 
