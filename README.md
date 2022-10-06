@@ -16,11 +16,18 @@ Online Questionnaire System (OQS) is an open-source examination management Syste
 ### TECH STACK USED
 
 ------------
-HTML5, CSS3, JavaScript, Python
 
-Frameworks - Vue 3, Tailwind CSS, Django, Django REST Framework
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/icons8-html-5.svg" alt="html5" width="40" height="40"/> </a> 
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/icons8-css3.svg" alt="css3" width="40" height="40"/> </a> 
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/icons8-javascript.svg" alt="javascript" width="40" height="40"/> </a> 
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/icons8-python.svg" alt="python" width="40" height="40"/> </a> 
 
-Database - PostgreSQL
+
+<a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/icons8-vue-js.svg" alt="vuejs" width="38" height="38"/> </a>  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/icons8-tailwind-css.svg" alt="tailwind CSS" width="40" height="40"/> </a> 
+<a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/icons8-django.svg" alt="django" width="50" height="50"/> </a> 
+<a href="https://www.django-rest-framework.org/" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/dj-rest.svg" alt="django REST Framwork" width="50" height="50"/> </a> 
+
+<a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"> <img src="../main/readme%20icons/PostgreSQL.svg" alt="PostgreSQL" width="40" height="40"/> </a> 
 
 All Technologies use their latest version (not LTS).
 
