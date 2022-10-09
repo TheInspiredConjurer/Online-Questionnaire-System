@@ -1,5 +1,6 @@
 ROLE_CHOICES = (
-    ("role 1", "role 1"),
-    ("role 2", "role 2"),
-    ("role 3", "role 3")
+    ("1", "Admin"),
+    ("2", "Teacher"),
+    ("3", "Student"),
+    ("4", "Guest")
 )

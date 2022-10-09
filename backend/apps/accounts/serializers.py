@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
+from .choices import ROLE_CHOICES
 from .models import User, Role
-
 
 class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(min_length=8, write_only=True)
@@ -16,7 +16,7 @@ class UserSerializer(serializers.ModelSerializer):
             "full_name",
             "password",
             "address",
-            # "role",
+            "role",
         )
 
     def create(self, validated_data):
@@ -34,21 +34,14 @@ class UserSerializer(serializers.ModelSerializer):
             "address",
             instance.address
         )
+        # instance.role = validated_data.get("role", instance.role)
         instance.save()
 
         return instance
 
 
-class UserRoleSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = (
-            "id",
-        )
-
-
 class RoleSerializer(serializers.ModelSerializer):
-    role = serializers.CharField(source="user.role")
+    role = serializers.ChoiceField(source="user.role", choices=ROLE_CHOICES)
 
     class Meta:
         model = Role
