@@ -1,6 +1,11 @@
+admin = 1
+teacher = 2
+student = 3
+guest = 4
+
 ROLE_CHOICES = (
-    ("1", "Admin"),
-    ("2", "Teacher"),
-    ("3", "Student"),
-    ("4", "Guest")
+    (admin, "Admin"),
+    (teacher, "Teacher"),
+    (student, "Student"),
+    (guest, "Guest")
 )
