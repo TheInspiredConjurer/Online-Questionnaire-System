@@ -32,30 +32,14 @@
     <div class="flex flex-col items-center">
       <h3>Built with</h3>
       <div class="flex justify-around">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class=" m-4">
-          <img class="w-16" :src="cssLogo" alt="css 3 logo"/>
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="m-4">
-          <img class="w-16" :src="htmlLogo" alt="html 5 logo"/>
-        </a>
-        <a class="m-4" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-          <img class="w-16" :src="javascriptLogo" alt="javascript logo"/>
-        </a>
-        <a class="m-4" href="https://vuejs.org/">
-          <img class="w-16" :src="vueLogo" alt="vue logo"/>
-        </a>
-        <a class="m-4" href="https://tailwindcss.com/">
-          <img class="w-16" :src="tailwindLogo" alt="tailwind logo"/>
-        </a>
-        <a class="m-4" href="https://www.python.org/">
-          <img class="w-16" :src="pythonLogo" alt="python logo"/>
-        </a>
-        <a class="m-4" href="https://www.djangoproject.com/">
-          <img class="w-16" :src="djangoLogo" alt="django logo"/>
-        </a>
-        <a class="m-4" href="https://www.postgresql.org/">
-          <img class="w-16" :src="postgresLogo" alt="postgresql logo"/>
-        </a>
+        <logo-link :logo="cssLogo" link="https://developer.mozilla.org/en-US/docs/Web/CSS" />
+        <logo-link :logo="htmlLogo" link="https://developer.mozilla.org/en-US/docs/Web/HTML" />
+        <logo-link :logo="javascriptLogo" link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" />
+        <logo-link :logo="vueLogo" link="https://vuejs.org/" />
+        <logo-link :logo="tailwindLogo" link="https://tailwindcss.com/" />
+        <logo-link :logo="pythonLogo" link="https://www.python.org/" />
+        <logo-link :logo="djangoLogo" link="https://www.djangoproject.com/" />
+        <logo-link :logo="postgresLogo" link="https://www.postgresql.org/" />
       </div>
     </div>
   </div>
@@ -71,6 +55,7 @@ import pythonLogo from '@/assets/icons/python.svg'
 import tailwindLogo from '@/assets/icons/tailwind-css.svg'
 import vueLogo from '@/assets/icons/vue-js.svg'
 import InformationCard from "@/components/InformationCard.vue";
+import LogoLink from "@/components/LogoLink.vue";
 </script>
 
 <style scoped>

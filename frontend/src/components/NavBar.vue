@@ -9,15 +9,14 @@
       <router-link :to="{name: 'solutions'}" class="mr-8">Solutions</router-link>
       <router-link :to="{name: 'login'}" class="mr-8">Login</router-link>
       <router-link :to="{name: 'register'}" class="mr-8">Register</router-link>
-      <a href="https://github.com/TheInspiredConjurer/Online-Questionnaire-System">
-        <img class="w-5" :src="githubLogoUrl" alt="github logo">
-      </a>
+      <logo-link :logo="githubLogoUrl" link="https://github.com/TheInspiredConjurer/Online-Questionnaire-System" small/>
     </div>
   </nav>
 </template>
 
 <script setup>
 import githubLogoUrl from '@/assets/github-logo.png'
+import LogoLink from "@/components/LogoLink.vue";
 </script>
 
 <style scoped>
