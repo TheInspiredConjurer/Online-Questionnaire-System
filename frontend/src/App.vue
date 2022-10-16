@@ -1,19 +1,13 @@
 <template>
-  <div class="flex flex-row h-[100vh] max-h-[100vh]">
-    <div class="flex flex-col">
-      <div class="w-6 h-6 mr-2">
-        <img alt="Vue logo" src="@/assets/logo.svg" width="24" height="24" />
-      </div>
-
-      <div>
-        <nav class="flex">
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-        </nav>
+  <div>
+    <div class="flex justify-between my-4">
+      <router-link :to="{name: 'home'}">Home Button</router-link>
+      <div class="flex mx-4">
+        <router-link :to="{name: 'home'}" class="mr-4" >Home</router-link>
+        <router-link :to="{name: 'about'}">About</router-link>
       </div>
     </div>
-
-    <RouterView />
+    <router-view />
   </div>
 </template>
 
