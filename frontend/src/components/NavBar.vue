@@ -20,6 +20,11 @@ import LogoLink from "@/components/LogoLink.vue";
 </script>
 
 <style scoped>
+/*
+Could not find an easy way to solve this with tailwind the same way, therefore
+kept it like this. Feel free to replace it with the tailwind counterparts when
+you find them.
+ */
 a {
   text-decoration: none;
   color: rgb(31 41 55);

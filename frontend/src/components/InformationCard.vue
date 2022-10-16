@@ -17,7 +17,8 @@ defineProps({
 <style scoped>
 /*
 Tailwinds hover:scale-110 unfortunately didn't work, therefore I solved it
-via usual CSS
+via usual CSS. Feel free to replace this with the tailwind counterparts once
+you get it working.
  */
 .zoom {
   transition: transform .2s;
