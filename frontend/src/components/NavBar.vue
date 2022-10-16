@@ -1,10 +1,10 @@
 <template>
-  <nav class="flex justify-between py-4">
+  <nav class="flex justify-between py-4 lower-shadow fixed top-0 w-[100%] bg-white">
     <router-link :to="{name: 'home'}" class="mx-4">
       <!-- TODO: insert logo once it exists-->
     </router-link>
     <div class="flex mx-4">
-      <router-link :to="{name: 'home'}" class="mr-8" >Home</router-link>
+      <router-link :to="{name: 'home'}" class="mr-8 " >Home</router-link>
       <router-link :to="{name: 'questions'}" class="mr-8">Questions</router-link>
       <router-link :to="{name: 'solutions'}" class="mr-8">Solutions</router-link>
       <router-link :to="{name: 'login'}" class="mr-8">Login</router-link>
@@ -21,21 +21,13 @@ import githubLogoUrl from '@/assets/github-logo.png'
 </script>
 
 <style scoped>
-nav {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
-
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(31 41 55);
   transition: 0.4s;
 }
 
 nav a.router-link-exact-active {
   color: #00838F; /* primary color */
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
 }
 </style>
