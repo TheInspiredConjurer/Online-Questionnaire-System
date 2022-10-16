@@ -1,6 +1,7 @@
 <template>
   <nav class="flex justify-between py-4">
-    <router-link :to="{name: 'home'}" class="mx-4">OQS
+    <router-link :to="{name: 'home'}" class="mx-4">
+      <!-- TODO: insert logo once it exists-->
     </router-link>
     <div class="flex mx-4">
       <router-link :to="{name: 'home'}" class="mr-8" >Home</router-link>
@@ -26,12 +27,12 @@ nav {
 
 a {
   text-decoration: none;
-  color: #00838F; /* primary color */
+  color: black;
   transition: 0.4s;
 }
 
 nav a.router-link-exact-active {
-  color: black;
+  color: #00838F; /* primary color */
 }
 
 nav a.router-link-exact-active:hover {
