@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between py-4 lower-shadow fixed top-0 w-[100%] bg-white">
+  <nav class="flex justify-between py-4 smooth-shadow fixed top-0 w-[100%] bg-white">
     <router-link :to="{name: 'home'}" class="mx-4">
       <!-- TODO: insert logo once it exists-->
     </router-link>
