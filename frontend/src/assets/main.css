@@ -2,11 +2,15 @@
 
 @layer utilities {
   .smooth-shadow {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 0 0 rgba(255,255,255, 0.8);
+  }
+
+  .boxing-white {
+    box-shadow: 0 0 1px 0 rgba(255,255,255, 0.8);
   }
 
   * {
-    @apply text-gray-800
+    @apply text-gray-100
   }
 }
 
@@ -23,4 +27,5 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1e1e1e;
 }

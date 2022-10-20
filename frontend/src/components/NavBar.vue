@@ -1,9 +1,9 @@
 <template>
-  <nav class="flex justify-between py-4 smooth-shadow fixed top-0 w-[100%] bg-white">
+  <nav class="flex justify-between py-4 smooth-shadow fixed top-0 w-[100%]">
     <router-link :to="{name: 'home'}" class="mx-4">
-      <!-- TODO: insert logo once it exists-->
+      <img class="w-12" :src="oqslogo" alt="ows-logo"/>
     </router-link>
-    <div class="flex mx-4">
+    <div class="flex mx-4 items-center">
       <router-link :to="{name: 'home'}" class="mr-8 " >Home</router-link>
       <router-link :to="{name: 'questions'}" class="mr-8">Questions</router-link>
       <router-link :to="{name: 'solutions'}" class="mr-8">Solutions</router-link>
@@ -15,8 +15,9 @@
 </template>
 
 <script setup>
-import githubLogoUrl from '@/assets/github-logo.png'
+import githubLogoUrl from '@/assets/github-logo-light.png'
 import LogoLink from "@/components/LogoLink.vue";
+import oqslogo from "@/assets/oqs_logo.svg";
 </script>
 
 <style scoped>
@@ -27,7 +28,7 @@ you find them.
  */
 a {
   text-decoration: none;
-  color: rgb(31 41 55);
+  color: rgb(243 244 246);
   transition: 0.4s;
 }
 

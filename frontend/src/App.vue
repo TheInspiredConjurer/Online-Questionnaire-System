@@ -2,7 +2,7 @@
   <div>
     <nav-bar />
     <!-- add top margin to account for nav-bar height-->
-    <router-view class="mt-14"/>
+    <router-view class="mt-20"/>
   </div>
 </template>
 
