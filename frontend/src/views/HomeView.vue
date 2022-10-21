@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <div class="smooth-shadow p-4 flex flex-col items-center">
+    <div class="smooth-shadow-black dark:smooth-shadow-white p-4 flex flex-col items-center">
       <h1>Online questionnaire system</h1>
       <h2> Planned Features</h2>
       <div class="flex justify-around">

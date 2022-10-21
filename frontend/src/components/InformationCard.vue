@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center boxing-white m-4 rounded zoom">
+  <div class="flex flex-col items-center boxing-black dark:boxing-white m-4 rounded zoom">
     <h3>{{ headline }}</h3>
     <slot />
   </div>

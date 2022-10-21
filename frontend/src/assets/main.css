@@ -1,21 +1,45 @@
 @tailwind utilities;
 
 @layer utilities {
-  .smooth-shadow {
+  .smooth-shadow-white {
     box-shadow: 0 1px 0 0 rgba(255,255,255, 0.8);
+  }
+
+  .smooth-shadow-black {
+    box-shadow: 0 1px 0 0 rgba(0,0,0, 0.2);
   }
 
   .boxing-white {
     box-shadow: 0 0 1px 0 rgba(255,255,255, 0.8);
   }
 
+  .boxing-black {
+    box-shadow: 0 0 4px 0 rgba(0,0,0, 0.2);
+  }
+
+  a {
+    text-decoration: none;
+    @apply text-gray-800;
+    @apply dark:text-gray-100;
+    transition: 0.4s;
+  }
+
+  /**
+  light theme was
+  * {
+    @apply text-gray-800
+  }
+  bg-white auf componente
+
+  dark theme is
   * {
     @apply text-gray-100
-  }
+  }*/
 }
 
 #app {
   font-weight: normal;
+  height: 100%;
 }
 
 body {
@@ -27,5 +51,5 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1e1e1e;
+  height: 100vh;
 }
