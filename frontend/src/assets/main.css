@@ -23,18 +23,6 @@
     @apply dark:text-gray-100;
     transition: 0.4s;
   }
-
-  /**
-  light theme was
-  * {
-    @apply text-gray-800
-  }
-  bg-white auf componente
-
-  dark theme is
-  * {
-    @apply text-gray-100
-  }*/
 }
 
 #app {
