@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <h1>Looking for Solutions? There you go.</h1>
   </div>
 </template>

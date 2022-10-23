@@ -1,17 +1,24 @@
 <template>
   <div class="flex">
-    <span class="mx-4">{{ modelValue ? "dark" : "light" }}</span>
-    <input type="checkbox" v-model="modelValue" @change="$emit('update:modelValue', modelValue)">
+    <span class="mx-4">{{ modelValue ? 'dark' : 'light' }}</span>
+    <input v-model="isDarkMode" type="checkbox" />
   </div>
 </template>
 
 <script setup>
-defineProps({
+import { computed } from 'vue'
+
+const props = defineProps({
   modelValue: {
     type: Boolean,
     required: true
   }
 })
 
-defineEmits(['update:modelValue'])
+const emit = defineEmits(['update:modelValue'])
+
+const isDarkMode = computed({
+  get: () => props.modelValue,
+  set: (value) => emit('update:modelValue', value)
+})
 </script>

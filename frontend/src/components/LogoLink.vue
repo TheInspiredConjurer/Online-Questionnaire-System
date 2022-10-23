@@ -1,11 +1,11 @@
 <template>
   <a :href="link" :class="small ? '' : 'm-4'">
-    <img :class="small ? 'w-5' : 'w-16'" :src="logo" alt=""/>
+    <img :class="small ? 'w-5' : 'w-16'" :src="logo" alt="" />
   </a>
 </template>
 
 <script setup>
-const props = defineProps({
+defineProps({
   link: {
     type: String,
     required: true
