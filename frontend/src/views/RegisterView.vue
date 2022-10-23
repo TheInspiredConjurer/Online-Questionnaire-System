@@ -1,7 +1,9 @@
 <template>
-  <div >
+  <div>
     <h1>One day you can register here</h1>
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {}
+</script>
