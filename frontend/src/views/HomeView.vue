@@ -74,7 +74,7 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import cssLogo from '@/assets/icons/css3.svg'
 import djangoLogo from '@/assets/icons/django.svg'
 import htmlLogo from '@/assets/icons/html-5.svg'
@@ -85,6 +85,25 @@ import tailwindLogo from '@/assets/icons/tailwind-css.svg'
 import vueLogo from '@/assets/icons/vue-js.svg'
 import InformationCard from '@/components/InformationCard.vue'
 import LogoLink from '@/components/LogoLink.vue'
+
+export default {
+  components: {
+    InformationCard,
+    LogoLink
+  },
+  data() {
+    return {
+      cssLogo,
+      djangoLogo,
+      htmlLogo,
+      javascriptLogo,
+      postgresLogo,
+      pythonLogo,
+      tailwindLogo,
+      vueLogo
+    }
+  }
+}
 </script>
 
 <style scoped></style>

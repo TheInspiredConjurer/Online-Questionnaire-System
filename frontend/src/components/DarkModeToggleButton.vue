@@ -5,20 +5,24 @@
   </div>
 </template>
 
-<script setup>
-import { computed } from 'vue'
-
-const props = defineProps({
-  modelValue: {
-    type: Boolean,
-    required: true
+<script>
+export default {
+  props: {
+    modelValue: {
+      type: Boolean,
+      required: true
+    }
+  },
+  emits: ['update:modelValue'],
+  computed: {
+    isDarkMode: {
+      get() {
+        return this.modelValue
+      },
+      set(value) {
+        this.$emit('update:modelValue', value)
+      }
+    }
   }
-})
-
-const emit = defineEmits(['update:modelValue'])
-
-const isDarkMode = computed({
-  get: () => props.modelValue,
-  set: (value) => emit('update:modelValue', value)
-})
+}
 </script>

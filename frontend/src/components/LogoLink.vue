@@ -4,19 +4,18 @@
   </a>
 </template>
 
-<script setup>
-defineProps({
-  link: {
-    type: String,
-    required: true
-  },
-  logo: {
-    type: String,
-    required: true
-  },
-  small: {
-    type: Boolean,
-    default: false
+<script>
+export default {
+  props: {
+    link: {
+      type: String,
+      required: true
+    },
+    logo: {
+      type: String,
+      required: true
+    },
+    small: Boolean
   }
-})
+}
 </script>

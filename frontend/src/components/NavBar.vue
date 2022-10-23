@@ -31,28 +31,42 @@
   </nav>
 </template>
 
-<script setup>
+<script>
 import lightGithubLogoUrl from '@/assets/github-logo-light.png'
 import darkGithubLogoUrl from '@/assets/github-logo-dark.png'
 import LogoLink from '@/components/LogoLink.vue'
 import darkOqslogo from '@/assets/oqs-logo-dark.svg'
 import lightOqslogo from '@/assets/oqs-logo-light.svg'
 import DarkModeToggleButton from '@/components/DarkModeToggleButton.vue'
-import { computed } from 'vue'
 
-const props = defineProps({
-  modelValue: {
-    type: Boolean,
-    required: true
+export default {
+  components: {
+    LogoLink,
+    DarkModeToggleButton
+  },
+  props: {
+    modelValue: Boolean
+  },
+  emits: ['update:modelValue'],
+  data() {
+    return {
+      lightGithubLogoUrl,
+      darkGithubLogoUrl,
+      darkOqslogo,
+      lightOqslogo
+    }
+  },
+  computed: {
+    isDarkMode: {
+      get() {
+        return this.modelValue
+      },
+      set(value) {
+        this.$emit('update:modelValue', value)
+      }
+    }
   }
-})
-
-const emit = defineEmits(['update:modelValue'])
-
-const isDarkMode = computed({
-  get: () => props.modelValue,
-  set: (value) => emit('update:modelValue', value)
-})
+}
 </script>
 
 <style scoped>

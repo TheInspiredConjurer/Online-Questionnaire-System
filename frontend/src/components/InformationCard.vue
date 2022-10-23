@@ -7,13 +7,15 @@
   </div>
 </template>
 
-<script setup>
-defineProps({
-  headline: {
-    type: String,
-    required: true
+<script>
+export default {
+  props: {
+    headline: {
+      type: String,
+      required: true
+    }
   }
-})
+}
 </script>
 
 <style scoped>
