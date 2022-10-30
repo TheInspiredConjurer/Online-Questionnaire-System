@@ -2,8 +2,10 @@ asgiref==3.5.2
 Django==4.1.1
 django-autoslug==1.9.8
 django-cities-light==3.9.2
+django-filter==22.1
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.2.1
+Pillow==9.3.0
 progressbar2==4.0.0
 psycopg-binary==3.1.2
 PyJWT==2.5.0

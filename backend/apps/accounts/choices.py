@@ -1,11 +1,11 @@
-admin = 1
-teacher = 2
-student = 3
-guest = 4
+ADMIN = 1
+TEACHER = 2
+STUDENT = 3
+GUEST = 4
 
-ROLE_CHOICES = (
-    (admin, "Admin"),
-    (teacher, "Teacher"),
-    (student, "Student"),
-    (guest, "Guest")
-)
+ROLE_CHOICES = [
+    (ADMIN, "Admin"),
+    (TEACHER, "Teacher"),
+    (STUDENT, "Student"),
+    (GUEST, "Guest")
+]
