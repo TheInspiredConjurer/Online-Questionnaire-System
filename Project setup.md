@@ -12,22 +12,22 @@ In order to start, you'll need to clone the repository first, you can do so eith
 git clone https://github.com/TheInspiredConjurer/Online-Questionnaire-System.git
 ```
 
-For all other commands you can find below, it is expected that you are in the `Online-Questionnaire-System` directory, so make sure to go their first
+For all other commands you can find below, it is expected that you are in the `Online-Questionnaire-System` directory, so make sure to go there first
 ```shell
 cd /path/to/Online-Questionnaire-System
 ```
 
 ## Node & npm for the frontend
-in case you don't have node installed already, I can recommend using [nvm](https://github.com/nvm-sh/nvm) a Node Version Manager. It allows installing and switching between node version quite easily. 
+in case you don't have node installed already, I recommend using [nvm](https://github.com/nvm-sh/nvm) a Node Version Manager. It allows installing and switching between node version quite easily. 
 
 Install it by executing the command mentioned in [Installing and updating](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-After that installing the latest version is as easy as executing
+After that, installing the latest version is as easy as executing
 ```shell
 nvm install
 ```
 
-You can verify the successful installation by asking 
+You can verify the successful installation by typing the following commands in the shell
 ```shell
 node --version
 # -> should equal the latest node version, v18.10.0 when this document was created
@@ -36,9 +36,9 @@ npm --version
 # -> should equal the latest npm version, 8.19.2 when this document was created
 ```
 
-## Virtual python environment and pg_config for the backend
+## Virtual python environment and `pg_config` for the backend
 ### Python 3
-First make sure you have Python 3 installed, you can do so by executing
+First make sure you have Python 3 installed; you can do so by executing
 ```shell
 python3 --version
 # -> Python 3.*.* (the currently latest is 3.10.7, but any LTS is ok as well)
