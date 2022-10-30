@@ -23,11 +23,25 @@ class ProfileViewSet(ModelViewSet):
     queryset = Profile.objects.all()
     serializer_class = ProfileSerializer
 
+    def create(self, request, *args, **kwargs):
+        userprofile = Profile.objects.create(user=User.objects.get(id=request.data.pop('user')), **request.data)
+        return Response(
+            data={
+                "id": userprofile.id,
+                "role": userprofile.role,
+                "university_name": userprofile.university_name,
+                "about": userprofile.about,
+                "profile_picture": userprofile.profile_picture if userprofile.profile_picture else None,
+                "user": userprofile.user_id
+            },
+            status=201
+        )
+
     def get_queryset(self):
         user = self.request.user
-        queryset = User.objects.filter(id=user.id).all()
+        queryset = Profile.objects.filter(id=user.id).all()
 
         if user.is_staff:
-            queryset = User.objects.all()
+            queryset = Profile.objects.all()
 
         return queryset
