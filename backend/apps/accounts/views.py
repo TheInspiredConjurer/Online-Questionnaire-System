@@ -1,8 +1,8 @@
 from rest_framework.viewsets import ModelViewSet
+from rest_framework.response import Response
 
-
-from .models import User, Role
-from .serializers import UserSerializer, RoleSerializer
+from .models import User, Profile
+from .serializers import UserSerializer, ProfileSerializer
 
 
 class UserViewSet(ModelViewSet):
@@ -19,9 +19,9 @@ class UserViewSet(ModelViewSet):
         return queryset
 
 
-class RoleViewSet(ModelViewSet):
-    queryset = Role.objects.all()
-    serializer_class = RoleSerializer
+class ProfileViewSet(ModelViewSet):
+    queryset = Profile.objects.all()
+    serializer_class = ProfileSerializer
 
     def get_queryset(self):
         user = self.request.user
